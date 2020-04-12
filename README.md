@@ -44,7 +44,7 @@ The data sent to the API is built up in the following way:
 
 # Contributions
 
-Create an Issue or Pull request
+Please create an Issue or Pull request
 
 # License
 
