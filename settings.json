@@ -1,0 +1,361 @@
+[
+    {
+        "moduleid": "devices:local",
+        "settings": [
+            {
+                "min": "0",
+                "id": "Battery:BackupMode:Enable",
+                "unit": null,
+                "access": "readwrite",
+                "type": "byte",
+                "default": null,
+                "max": "1"
+            },
+            {
+                "min": "0",
+                "id": "Battery:DynamicSoc:Enable",
+                "unit": null,
+                "access": "readwrite",
+                "type": "byte",
+                "default": null,
+                "max": "1"
+            },
+            {
+                "min": "50.0",
+                "id": "Battery:MinHomeComsumption",
+                "unit": "W",
+                "access": "readwrite",
+                "type": "double",
+                "default": null,
+                "max": null
+            },
+            {
+                "min": "5",
+                "id": "Battery:MinSoc",
+                "unit": "%",
+                "access": "readwrite",
+                "type": "byte",
+                "default": null,
+                "max": "100"
+            },
+            {
+                "min": "0",
+                "id": "Battery:SmartBatteryControl:Enable",
+                "unit": null,
+                "access": "readwrite",
+                "type": "byte",
+                "default": null,
+                "max": "1"
+            },
+            {
+                "min": "0",
+                "id": "Battery:Strategy",
+                "unit": null,
+                "access": "readwrite",
+                "type": "byte",
+                "default": null,
+                "max": "2"
+            },
+            {
+                "min": null,
+                "id": "Battery:Type",
+                "unit": null,
+                "access": "readwrite",
+                "type": "uint16",
+                "default": null,
+                "max": null
+            },
+            {
+                "min": "0",
+                "id": "DigitalOutputs:Customer:ConfigurationFlags",
+                "unit": null,
+                "access": "readwrite",
+                "type": "uint32",
+                "default": null,
+                "max": "31"
+            },
+            {
+                "min": null,
+                "id": "DigitalOutputs:Customer:DelayTime",
+                "unit": "s",
+                "access": "readwrite",
+                "type": "uint32",
+                "default": null,
+                "max": null
+            },
+            {
+                "min": null,
+                "id": "DigitalOutputs:Customer:PowerMode:OffPowerThreshold",
+                "unit": "W",
+                "access": "readwrite",
+                "type": "uint32",
+                "default": null,
+                "max": null
+            },
+            {
+                "min": null,
+                "id": "DigitalOutputs:Customer:PowerMode:OnPowerThreshold",
+                "unit": "W",
+                "access": "readwrite",
+                "type": "uint32",
+                "default": null,
+                "max": null
+            },
+            {
+                "min": null,
+                "id": "DigitalOutputs:Customer:TimeMode:MaxNoOfSwitchingCyclesPerDay",
+                "unit": null,
+                "access": "readwrite",
+                "type": "uint32",
+                "default": null,
+                "max": null
+            },
+            {
+                "min": null,
+                "id": "DigitalOutputs:Customer:TimeMode:PowerThreshold",
+                "unit": "W",
+                "access": "readwrite",
+                "type": "uint32",
+                "default": null,
+                "max": null
+            },
+            {
+                "min": null,
+                "id": "DigitalOutputs:Customer:TimeMode:RunTime",
+                "unit": "s",
+                "access": "readwrite",
+                "type": "uint32",
+                "default": null,
+                "max": null
+            },
+            {
+                "min": null,
+                "id": "DigitalOutputs:Customer:TimeMode:StableTime",
+                "unit": "s",
+                "access": "readwrite",
+                "type": "uint32",
+                "default": null,
+                "max": null
+            },
+            {
+                "min": "0",
+                "id": "Generator:ExtModuleControl:Enable",
+                "unit": null,
+                "access": "readwrite",
+                "type": "byte",
+                "default": null,
+                "max": "1"
+            },
+            {
+                "min": "0",
+                "id": "Generator:ShadowMgmt:Enable",
+                "unit": null,
+                "access": "readwrite",
+                "type": "byte",
+                "default": null,
+                "max": "7"
+            }
+        ]
+    },
+    {
+        "settings": [
+            {
+                "min": "0",
+                "id": "ExportEnable",
+                "unit": null,
+                "access": "readwrite",
+                "type": "byte",
+                "default": null,
+                "max": "1"
+            },
+            {
+                "min": null,
+                "id": "Portal",
+                "unit": null,
+                "access": "readwrite",
+                "type": "uint32",
+                "default": null,
+                "max": null
+            }
+        ],
+        "moduleid": "scb:export"
+    },
+    {
+        "settings": [
+            {
+                "min": "1",
+                "id": "Logintervall",
+                "unit": "s",
+                "access": "readwrite",
+                "type": "uint32",
+                "default": "300",
+                "max": "10000"
+            }
+        ],
+        "moduleid": "scb:logging:logger1"
+    },
+    {
+        "settings": [
+            {
+                "min": "1",
+                "id": "Logintervall",
+                "unit": "s",
+                "access": "readwrite",
+                "type": "uint32",
+                "default": "300",
+                "max": "10000"
+            }
+        ],
+        "moduleid": "scb:logging:logger2"
+    },
+    {
+        "settings": [
+            {
+                "min": null,
+                "id": "ModbusEnable",
+                "unit": null,
+                "access": "readwrite",
+                "type": "bool",
+                "default": null,
+                "max": null
+            },
+            {
+                "min": "1",
+                "id": "ModbusUnitId",
+                "unit": null,
+                "access": "readwrite",
+                "type": "uint16",
+                "default": null,
+                "max": "255"
+            }
+        ],
+        "moduleid": "scb:modbus"
+    },
+    {
+        "settings": [
+            {
+                "min": "1",
+                "id": "Hostname",
+                "unit": null,
+                "access": "readwrite",
+                "type": "string",
+                "default": null,
+                "max": "63"
+            },
+            {
+                "min": null,
+                "id": "IPv4Address",
+                "unit": null,
+                "access": "readwrite",
+                "type": "string",
+                "default": null,
+                "max": null
+            },
+            {
+                "min": "0",
+                "id": "IPv4Auto",
+                "unit": null,
+                "access": "readwrite",
+                "type": "byte",
+                "default": null,
+                "max": "1"
+            },
+            {
+                "min": "0",
+                "id": "IPv4AutoDNS",
+                "unit": null,
+                "access": "readwrite",
+                "type": "byte",
+                "default": null,
+                "max": "1"
+            },
+            {
+                "min": null,
+                "id": "IPv4DNS1",
+                "unit": null,
+                "access": "readwrite",
+                "type": "string",
+                "default": null,
+                "max": null
+            },
+            {
+                "min": null,
+                "id": "IPv4DNS2",
+                "unit": null,
+                "access": "readwrite",
+                "type": "string",
+                "default": null,
+                "max": null
+            },
+            {
+                "min": "0",
+                "id": "IPv4Enable",
+                "unit": null,
+                "access": "readwrite",
+                "type": "byte",
+                "default": null,
+                "max": "1"
+            },
+            {
+                "min": null,
+                "id": "IPv4Gateway",
+                "unit": null,
+                "access": "readwrite",
+                "type": "string",
+                "default": null,
+                "max": null
+            },
+            {
+                "min": null,
+                "id": "IPv4Subnetmask",
+                "unit": null,
+                "access": "readwrite",
+                "type": "string",
+                "default": null,
+                "max": null
+            }
+        ],
+        "moduleid": "scb:network"
+    },
+    {
+        "settings": [
+            {
+                "min": null,
+                "id": "DateTime",
+                "unit": null,
+                "access": "readwrite",
+                "type": "string",
+                "default": null,
+                "max": null
+            },
+            {
+                "min": null,
+                "id": "NTPservers",
+                "unit": null,
+                "access": "readwrite",
+                "type": "string",
+                "default": null,
+                "max": null
+            },
+            {
+                "min": null,
+                "id": "NTPuse",
+                "unit": null,
+                "access": "readwrite",
+                "type": "string",
+                "default": null,
+                "max": null
+            },
+            {
+                "min": null,
+                "id": "Timezone",
+                "unit": null,
+                "access": "readwrite",
+                "type": "string",
+                "default": null,
+                "max": null
+            }
+        ],
+        "moduleid": "scb:time"
+    }
+]
