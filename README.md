@@ -26,6 +26,8 @@ You can run the `plenti.js` file by
 
 ### Settings you can control
 
+*All Endpoints are listed in [PlentiApiSwagger.pdf](PlentiApiSwagger.pdf)* 
+
 All Settings you can control can be found in [settings.json](settings.json)
 
 The data sent to the API is built up in the following way:
